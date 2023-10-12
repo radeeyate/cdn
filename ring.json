@@ -2,16 +2,21 @@
   {
     "id": "radi8",
     "name": "radi8",
-    "url": "https://radi8.dev/"
+    "url": "https://radi8.dev/",
   },
   {
     "id": "tauon",
     "name": "lily",
-    "url": "https://tauon.dev"
+    "url": "https://tauon.dev",
   },
+  {
+    "id": "illogicalapple",
+    "name": "illogicalapple",
+    "url": "https://illogicalapple.com",
+  }
   {
     "id": "silly",
     "name": "silly",
-    "url": "https://reidthepog.github.io"
+    "url": "https://reidthepog.github.io",
   }
 ]
