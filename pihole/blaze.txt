@@ -6,4 +6,6 @@
 ||geojs.io^
 ||frog.wix.com^
 ||panorama.wixapps.net^
-*wix-engage-visitors*
+||*wix-engage-visitors*^
+||wix-engage-visitors-prod-9.firebaseio.com^
+||engage.wixapps.net^
