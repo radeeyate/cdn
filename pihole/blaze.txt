@@ -1,0 +1,9 @@
+# Pi-hole adlist to block analytics/IP loggin on blazeapp.net
+# Created by radi8 (https://github.com/radeeyate)
+
+||ipify.org^
+||synctrack.io^
+||geojs.io^
+||frog.wix.com^
+||panorama.wixapps.net^
+*wix-engage-visitors*
