@@ -1,4 +1,4 @@
-{
+names = {
     "a": [
         "Alana",
         "Amanda",
