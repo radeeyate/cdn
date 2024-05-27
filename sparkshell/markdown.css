@@ -1,0 +1,612 @@
+pre {
+    line-height: 125%;
+}
+
+td.linenos .normal {
+    color: #6e7681;
+    background-color: #0d1117;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+span.linenos {
+    color: #6e7681;
+    background-color: #0d1117;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+td.linenos .special {
+    color: #c9d1d9;
+    background-color: #6e7681;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+span.linenos.special {
+    color: #c9d1d9;
+    background-color: #6e7681;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.codehilite .hll {
+    background-color: #6e7681
+}
+
+.codehilite {
+    background: #0d1117;
+    color: #c9d1d9
+}
+
+.codehilite .c {
+    color: #8b949e;
+    font-style: italic
+}
+
+/* Comment */
+.codehilite .err {
+    color: #f85149
+}
+
+/* Error */
+.codehilite .esc {
+    color: #c9d1d9
+}
+
+/* Escape */
+.codehilite .g {
+    color: #c9d1d9
+}
+
+/* Generic */
+.codehilite .k {
+    color: #ff7b72
+}
+
+/* Keyword */
+.codehilite .l {
+    color: #a5d6ff
+}
+
+/* Literal */
+.codehilite .n {
+    color: #c9d1d9
+}
+
+/* Name */
+.codehilite .o {
+    color: #ff7b72;
+    font-weight: bold
+}
+
+/* Operator */
+.codehilite .x {
+    color: #c9d1d9
+}
+
+/* Other */
+.codehilite .p {
+    color: #c9d1d9
+}
+
+/* Punctuation */
+.codehilite .ch {
+    color: #8b949e;
+    font-style: italic
+}
+
+/* Comment.Hashbang */
+.codehilite .cm {
+    color: #8b949e;
+    font-style: italic
+}
+
+/* Comment.Multiline */
+.codehilite .cp {
+    color: #8b949e;
+    font-weight: bold;
+    font-style: italic
+}
+
+/* Comment.Preproc */
+.codehilite .cpf {
+    color: #8b949e;
+    font-style: italic
+}
+
+/* Comment.PreprocFile */
+.codehilite .c1 {
+    color: #8b949e;
+    font-style: italic
+}
+
+/* Comment.Single */
+.codehilite .cs {
+    color: #8b949e;
+    font-weight: bold;
+    font-style: italic
+}
+
+/* Comment.Special */
+.codehilite .gd {
+    color: #ffa198;
+    background-color: #490202
+}
+
+/* Generic.Deleted */
+.codehilite .ge {
+    color: #c9d1d9;
+    font-style: italic
+}
+
+/* Generic.Emph */
+.codehilite .gr {
+    color: #ffa198
+}
+
+/* Generic.Error */
+.codehilite .gh {
+    color: #79c0ff;
+    font-weight: bold
+}
+
+/* Generic.Heading */
+.codehilite .gi {
+    color: #56d364;
+    background-color: #0f5323
+}
+
+/* Generic.Inserted */
+.codehilite .go {
+    color: #8b949e
+}
+
+/* Generic.Output */
+.codehilite .gp {
+    color: #8b949e
+}
+
+/* Generic.Prompt */
+.codehilite .gs {
+    color: #c9d1d9;
+    font-weight: bold
+}
+
+/* Generic.Strong */
+.codehilite .gu {
+    color: #79c0ff
+}
+
+/* Generic.Subheading */
+.codehilite .gt {
+    color: #ff7b72
+}
+
+/* Generic.Traceback */
+.codehilite .g-Underline {
+    color: #c9d1d9;
+    text-decoration: underline
+}
+
+/* Generic.Underline */
+.codehilite .kc {
+    color: #79c0ff
+}
+
+/* Keyword.Constant */
+.codehilite .kd {
+    color: #ff7b72
+}
+
+/* Keyword.Declaration */
+.codehilite .kn {
+    color: #ff7b72
+}
+
+/* Keyword.Namespace */
+.codehilite .kp {
+    color: #79c0ff
+}
+
+/* Keyword.Pseudo */
+.codehilite .kr {
+    color: #ff7b72
+}
+
+/* Keyword.Reserved */
+.codehilite .kt {
+    color: #ff7b72
+}
+
+/* Keyword.Type */
+.codehilite .ld {
+    color: #79c0ff
+}
+
+/* Literal.Date */
+.codehilite .m {
+    color: #a5d6ff
+}
+
+/* Literal.Number */
+.codehilite .s {
+    color: #a5d6ff
+}
+
+/* Literal.String */
+.codehilite .na {
+    color: #c9d1d9
+}
+
+/* Name.Attribute */
+.codehilite .nb {
+    color: #c9d1d9
+}
+
+/* Name.Builtin */
+.codehilite .nc {
+    color: #f0883e;
+    font-weight: bold
+}
+
+/* Name.Class */
+.codehilite .no {
+    color: #79c0ff;
+    font-weight: bold
+}
+
+/* Name.Constant */
+.codehilite .nd {
+    color: #d2a8ff;
+    font-weight: bold
+}
+
+/* Name.Decorator */
+.codehilite .ni {
+    color: #ffa657
+}
+
+/* Name.Entity */
+.codehilite .ne {
+    color: #f0883e;
+    font-weight: bold
+}
+
+/* Name.Exception */
+.codehilite .nf {
+    color: #d2a8ff;
+    font-weight: bold
+}
+
+/* Name.Function */
+.codehilite .nl {
+    color: #79c0ff;
+    font-weight: bold
+}
+
+/* Name.Label */
+.codehilite .nn {
+    color: #ff7b72
+}
+
+/* Name.Namespace */
+.codehilite .nx {
+    color: #c9d1d9
+}
+
+/* Name.Other */
+.codehilite .py {
+    color: #79c0ff
+}
+
+/* Name.Property */
+.codehilite .nt {
+    color: #7ee787
+}
+
+/* Name.Tag */
+.codehilite .nv {
+    color: #79c0ff
+}
+
+/* Name.Variable */
+.codehilite .ow {
+    color: #ff7b72;
+    font-weight: bold
+}
+
+/* Operator.Word */
+.codehilite .pm {
+    color: #c9d1d9
+}
+
+/* Punctuation.Marker */
+.codehilite .w {
+    color: #6e7681
+}
+
+/* Text.Whitespace */
+.codehilite .mb {
+    color: #a5d6ff
+}
+
+/* Literal.Number.Bin */
+.codehilite .mf {
+    color: #a5d6ff
+}
+
+/* Literal.Number.Float */
+.codehilite .mh {
+    color: #a5d6ff
+}
+
+/* Literal.Number.Hex */
+.codehilite .mi {
+    color: #a5d6ff
+}
+
+/* Literal.Number.Integer */
+.codehilite .mo {
+    color: #a5d6ff
+}
+
+/* Literal.Number.Oct */
+.codehilite .sa {
+    color: #79c0ff
+}
+
+/* Literal.String.Affix */
+.codehilite .sb {
+    color: #a5d6ff
+}
+
+/* Literal.String.Backtick */
+.codehilite .sc {
+    color: #a5d6ff
+}
+
+/* Literal.String.Char */
+.codehilite .dl {
+    color: #79c0ff
+}
+
+/* Literal.String.Delimiter */
+.codehilite .sd {
+    color: #a5d6ff
+}
+
+/* Literal.String.Doc */
+.codehilite .s2 {
+    color: #a5d6ff
+}
+
+/* Literal.String.Double */
+.codehilite .se {
+    color: #79c0ff
+}
+
+/* Literal.String.Escape */
+.codehilite .sh {
+    color: #79c0ff
+}
+
+/* Literal.String.Heredoc */
+.codehilite .si {
+    color: #a5d6ff
+}
+
+/* Literal.String.Interpol */
+.codehilite .sx {
+    color: #a5d6ff
+}
+
+/* Literal.String.Other */
+.codehilite .sr {
+    color: #79c0ff
+}
+
+/* Literal.String.Regex */
+.codehilite .s1 {
+    color: #a5d6ff
+}
+
+/* Literal.String.Single */
+.codehilite .ss {
+    color: #a5d6ff
+}
+
+/* Literal.String.Symbol */
+.codehilite .bp {
+    color: #c9d1d9
+}
+
+/* Name.Builtin.Pseudo */
+.codehilite .fm {
+    color: #d2a8ff;
+    font-weight: bold
+}
+
+/* Name.Function.Magic */
+.codehilite .vc {
+    color: #79c0ff
+}
+
+/* Name.Variable.Class */
+.codehilite .vg {
+    color: #79c0ff
+}
+
+/* Name.Variable.Global */
+.codehilite .vi {
+    color: #79c0ff
+}
+
+/* Name.Variable.Instance */
+.codehilite .vm {
+    color: #79c0ff
+}
+
+/* Name.Variable.Magic */
+.codehilite .il {
+    color: #a5d6ff
+}
+
+/* Literal.Number.Integer.Long */
+
+
+.codehilite pre {
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc #f5f5f5;
+}
+
+/* For Firefox */
+.codehilite pre::-webkit-scrollbar {
+    width: 6px;
+}
+
+.codehilite pre::-webkit-scrollbar-track {
+    background: #f5f5f5;
+}
+
+.codehilite pre::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 3px;
+}
+
+/* For Chrome, Edge, and Safari */
+.codehilite pre::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+}
+
+.codehilite pre::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 3px;
+}
+
+code {
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc #f5f5f5;
+}
+
+code::-webkit-scrollbar {
+    height: 6px;
+}
+
+code::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+code::-webkit-scrollbar-track {
+    background-color: #ccc;
+}
+
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    text-align: left;
+}
+
+table th {
+    font-weight: bold;
+}
+
+.progress-label {
+    position: absolute;
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+    margin: 0;
+    line-height: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 1.2rem;
+    float: left;
+    background-color: #2979ff;
+}
+
+.progress {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    height: 1.2rem;
+    background-color: #eeeeee;
+    position: relative;
+}
+
+.progress.thin {
+    margin-top: 0.9rem;
+    height: 0.4rem;
+}
+
+.progress.thin .progress-label {
+    margin-top: -0.4rem;
+}
+
+.progress.thin .progress-bar {
+    height: 0.4rem;
+}
+
+.progress-100plus .progress-bar {
+    background-color: #00e676;
+}
+
+.progress-80plus .progress-bar {
+    background-color: #fbc02d;
+}
+
+.progress-60plus .progress-bar {
+    background-color: #ff9100;
+}
+
+.progress-40plus .progress-bar {
+    background-color: #ff5252;
+}
+
+.progress-20plus .progress-bar {
+    background-color: #ff1744;
+}
+
+.progress-0plus .progress-bar {
+    background-color: #f50057;
+}
+
+.markdown-body .task-list-item {
+    list-style-type: none !important;
+}
+
+.markdown-body .task-list-item input[type="checkbox"] {
+    margin: 0 4px 0.25em -20px;
+    vertical-align: middle;
+}
+
+.twemoji {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    vertical-align: -0.1em;
+}
+
+.progress.candystripe .progress-bar{
+    background-image:linear-gradient(135deg,var(--md-progress-stripe) 27%,transparent 27%,transparent 52%,var(--md-progress-stripe) 52%,var(--md-progress-stripe) 77%,transparent 77%,transparent);
+    background-size:2rem 2rem
+}
+
+.candystripe-animate .progress-bar{
+    animation:animate-stripes 3s linear infinite
+}
